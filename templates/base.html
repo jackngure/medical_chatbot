@@ -1,0 +1,22 @@
+<!-- self-diagnosis-medical-chatbot/templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Medical Chatbot{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Medical Chatbot</h1>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2026 Medical Chatbot</p>
+    </footer>
+</body>
+</html>
